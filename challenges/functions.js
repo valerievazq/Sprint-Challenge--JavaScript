@@ -18,20 +18,18 @@ function consume(a, b, cb) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-function add(a, b, cb) {
-  let num = (a + b);
-  return cb(num);
+function add(a, b) {
+  
+  return (a+b);
 }
 
-function multiply (a , b , cb){
-  let num = (a * b);
-  return cb(num);
- 
+function multiply (a , b){
+  return (a * b);
 }
 
-function greeting (firstName , lastName, cb){
+function greeting (firstName , lastName){
 
-  return cb(`Hello ${firstName} ${lastName}, nice to meet you!`)
+  return (`Hello ${firstName} ${lastName}, nice to meet you!`)
 }
 
 
