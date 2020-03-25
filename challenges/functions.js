@@ -45,6 +45,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+// It is nested within myFunction, inside of the block of code, so it allows an inner function be accessed by an outer function
 
 const external = "I'm outside the function";
 
